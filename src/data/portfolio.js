@@ -7,9 +7,9 @@ export default [
     },
     {
         title: 'Developer Portfolio',
-        imgUrl: '',
+        imgUrl: '/assets/portfolio_img.png',
         stack: ['React', 'Tailwind', 'Vite'],
-        link: 'http://localhost:5173/'
+        link: 'https://brendanrice2.github.io/brendan-rice-portfolio/'
     },
     {
         title: 'Operating Systems Final Project',

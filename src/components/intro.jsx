@@ -15,7 +15,7 @@ function Intro() {
                 target="_blank"
                 className="text-cyan-600 hover:underline
                 underline-offset-2 decoration-2
-                decoration-blue-600"
+                decoration-orange-600"
                 rel="noreferrer noopener"
             >
                 Brendanrice2
