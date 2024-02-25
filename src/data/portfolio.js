@@ -7,7 +7,7 @@ export default [
     },
     {
         title: 'Developer Portfolio',
-        imgUrl: '../public/assets/portfolioImg.png',
+        imgUrl: './public/assets/portfolioImg.png',
         stack: ['React', 'Tailwind', 'Vite'],
         link: 'https://brendanrice2.github.io/brendan-rice-portfolio/'
     },
