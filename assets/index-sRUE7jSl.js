@@ -63,11 +63,11 @@ Error generating stack: `+o.message+`
             items-center`,children:P.jsxs("form",{action:"https://getform.io/slug/f/https://getform.io/f/3aa3d809-abf3-4641-9e8f-2b9bf07016b3",method:"POST",className:`flex flex-col w-full md:w-7/
                     12`,children:[P.jsx(tc,{children:"Contact"}),P.jsx("input",{type:"text",name:"name",placeholder:"Name",className:`p-2 bg-transparent
                         border-2 rounded-md
-                        focus:outline-none`}),P.jsx("input",{type:"text",name:"email",placeholder:"Email",className:`my-2 p-2 bg-transparent
+                        focus:outline-none`}),P.jsx("input",{type:"email",name:"email",placeholder:"Email",className:`my-2 p-2 bg-transparent
                         border-2 rounded-md
                         focus:outline-none`}),P.jsx("textarea",{name:"message",placeholder:"Message",rows:"10",className:`p-2 mb-4 bg-transparent
                         border-2 rounded-md
-                        focus:outline-none`}),P.jsx("button",{type:"button",className:`text-center inline-block
+                        focus:outline-none`}),P.jsx("button",{type:"submit",className:`text-center inline-block
                         px-8 py-3 w-max text-base
                         font-medium rounded-md text-white
                         bg-gradient-to-r from-teal-500
