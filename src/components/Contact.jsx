@@ -2,53 +2,37 @@ import React from 'react';
 import Title from './Title';
 
 function Contact() {
+
+    function copyEmailToClipboard(email) {
+        var dummy = document.createElement("textarea");
+        document.body.appendChild(dummy);
+        dummy.value = email;
+        dummy.select();
+        document.execCommand("copy");
+        document.body.removeChild(dummy);
+        alert("Email copied to clipboard: " + email);
+    }
+
     return (
         <div className="flex flex-col mb-10 mx-auto">
             <div className='flex justify-center
             items-center'>
-                <form
-                    action="https://getform.io/slug/f/https://getform.io/f/3aa3d809-abf3-4641-9e8f-2b9bf07016b3"
-                    method="POST"
-                    className="flex flex-col w-full md:w-7/
-                    12"
+                <div className="flex flex-col w-full md:w-7/12"
                 >
                     <Title>Contact</Title>
-                    <input
-                        type="text"
-                        name="name"
-                        placeholder='Name'
-                        className='p-2 bg-transparent
-                        border-2 rounded-md
-                        focus:outline-none'
-                    />
-                    <input
-                        type="email"
-                        name="email"
-                        placeholder='Email'
-                        className='my-2 p-2 bg-transparent
-                        border-2 rounded-md
-                        focus:outline-none'
-                    />
-                    <textarea
-                        name="message"
-                        placeholder='Message'
-                        rows='10'
-                        className='p-2 mb-4 bg-transparent
-                        border-2 rounded-md
-                        focus:outline-none'
-                    />
-                    <button 
-                        type='submit'
-                        className='text-center inline-block
-                        px-8 py-3 w-max text-base
-                        font-medium rounded-md text-white
-                        bg-gradient-to-r from-teal-500
-                        to-orange-500 drop-shadow-md 
-                        hover:stroke-white'
-                    >
-                        Work With Me
-                    </button>
-                </form>
+                    <p className="text-sm max-w-xl mb-6
+            font-bold">I'm always open to new opportunities, and I'm always looking to learn something new. If you have a project that you'd like to work with me on, or if you'd like to get in touch, please feel free to reach out to me via my email: {' '}
+    
+                        <a
+                            href="#"
+                            onclick={() => copyEmailToClipboard('brendanjrice32@gmail.com')}
+                            className="text-cyan-600 hover:underline
+                            underline-offset-2 decoration-2
+                            decoration-orange-600">
+                            brendanjrice32@gmail.com
+                        </a> 
+                    </p>
+                </div>
             </div>
         </div>
     )
