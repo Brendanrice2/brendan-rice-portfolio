@@ -60,19 +60,10 @@ Error generating stack: `+o.message+`
                 md:text-sm dark:text-white`,children:t.map(l=>P.jsx("span",{className:`inline-block px-2
                         py-1 font-semibold border-2 border-stone900 
                         dark:border-white rounded-md`,children:l}))})]})]})}function Ud(){return P.jsx("div",{className:"flex flex-col md:flex-row items-center justify-center",children:P.jsx("div",{className:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4",children:Dd.map(e=>P.jsx(Fd,{imgUrl:e.imgUrl,title:e.title,stack:e.stack,link:e.link}))})})}function $d(){return P.jsx("div",{className:"flex flex-col mb-10 mx-auto",children:P.jsx("div",{className:`flex justify-center
-            items-center`,children:P.jsxs("form",{action:"https://getform.io/slug/f/https://getform.io/f/3aa3d809-abf3-4641-9e8f-2b9bf07016b3",method:"POST",className:`flex flex-col w-full md:w-7/
-                    12`,children:[P.jsx(tc,{children:"Contact"}),P.jsx("input",{type:"text",name:"name",placeholder:"Name",className:`p-2 bg-transparent
-                        border-2 rounded-md
-                        focus:outline-none`}),P.jsx("input",{type:"email",name:"email",placeholder:"Email",className:`my-2 p-2 bg-transparent
-                        border-2 rounded-md
-                        focus:outline-none`}),P.jsx("textarea",{name:"message",placeholder:"Message",rows:"10",className:`p-2 mb-4 bg-transparent
-                        border-2 rounded-md
-                        focus:outline-none`}),P.jsx("button",{type:"submit",className:`text-center inline-block
-                        px-8 py-3 w-max text-base
-                        font-medium rounded-md text-white
-                        bg-gradient-to-r from-teal-500
-                        to-orange-500 drop-shadow-md 
-                        hover:stroke-white`,children:"Work With Me"})]})})})}function Ad(){return P.jsx("div",{className:"py-5 text-center",children:P.jsxs("p",{className:"text-sm mt-2  opacity-50",children:["© ",new Date().getFullYear()," Brendan Rice. All rights reserved."]})})}function Vd(){const[e,n]=Qn.useState(null);Qn.useEffect(()=>{window.matchMedia("(prefers-color-scheme: dark)").matches?n("dark"):n("light")},[]);const t=()=>{n(e==="dark"?"light":"dark")};Qn.useEffect(()=>{e==="dark"?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")},[e]);const r=P.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24",strokeWidth:1.5,stroke:"currentColor",className:"w-6 h-6",children:P.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:`M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 
+            items-center`,children:P.jsxs("div",{className:"flex flex-col w-full md:w-7/12",children:[P.jsx(tc,{children:"Contact"}),P.jsxs("p",{className:`text-sm max-w-xl mb-6
+            font-bold`,children:["I'm always open to new opportunities, and I'm always looking to learn something new. If you have a project that you'd like to work with me on, or if you'd like to get in touch, please feel free to reach out to me via my email: "," ",P.jsx("a",{className:`text-cyan-600 hover:underline
+                            underline-offset-2 decoration-2
+                            decoration-orange-600`,children:"brendanjrice32@gmail.com"})]})]})})})}function Ad(){return P.jsx("div",{className:"py-5 text-center",children:P.jsxs("p",{className:"text-sm mt-2  opacity-50",children:["© ",new Date().getFullYear()," Brendan Rice. All rights reserved."]})})}function Vd(){const[e,n]=Qn.useState(null);Qn.useEffect(()=>{window.matchMedia("(prefers-color-scheme: dark)").matches?n("dark"):n("light")},[]);const t=()=>{n(e==="dark"?"light":"dark")};Qn.useEffect(()=>{e==="dark"?document.documentElement.classList.add("dark"):document.documentElement.classList.remove("dark")},[e]);const r=P.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24",strokeWidth:1.5,stroke:"currentColor",className:"w-6 h-6",children:P.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:`M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 
           6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 
           12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 
           3.75 3.75 0 0 1 7.5 0Z`})}),l=P.jsx("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24",strokeWidth:1.5,stroke:"white",className:"w-6 h-6",children:P.jsx("path",{strokeLinecap:"round",strokeLinejoin:"round",d:`M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 
