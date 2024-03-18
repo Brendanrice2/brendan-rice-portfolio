@@ -3,6 +3,8 @@ import Title from './Title';
 
 function Contact() {
 
+    // Edited contact to a simple paragraph
+
     return (
         <div className="flex flex-col mb-10 mx-auto">
             <div className='flex justify-center
