@@ -7,9 +7,9 @@ function Intro() {
         pb-6">
             <h1 className="text-4xl md:text-7xl dark:text-white
             mb-1 md:mb-3 font-bold">Brendan Rice</h1>
-            <p className="text-base md:text-xl mb-3 font-medium">Software Engineer</p>
-            <p className="text-sm max-w-xl mb-6
-            font-bold">I'm a computer science BS new grad from the University of Rhode Island. I'm a hard worker, and I love taking the time to learn something new. My goal is to be the best software engineer I can be, and push the standards of my client, supervisor, and company. I've created both side projects, as well as school projects that are located via my Github {' '}
+            <p className="text-base md:text-xl mb-3 font-medium">Recent CS Graduate</p>
+            { <p className="text-sm max-w-xl mb-6
+            font-bold">I'm a computer science BS new grad from the University of Rhode Island. I thoroughly enjoy improving myself every single day, and have a passion for working with people. Using perseverence, discipline, and a deep desire to learn, I will do my very best at whatever challenge I'm taking on. You can view some of my school, and side projects via my GitHub {' '}
             <a
                 href="https://github.com/Brendanrice2"
                 target="_blank"
@@ -21,8 +21,7 @@ function Intro() {
                 Brendanrice2
             </a>{' '}
             .
-            
-            </p>
+            </p>}
         </div>
     )
 }
